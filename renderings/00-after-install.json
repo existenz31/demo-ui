@@ -1,0 +1,835 @@
+[
+  {
+      "id": "customers",
+      "icon": "user",
+      "layout": {
+          "scope": null,
+          "fields": [
+              {
+                  "id": "customers-createdAt",
+                  "fieldName": "createdAt",
+                  "isReadOnly": true,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "created at",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              },
+              {
+                  "id": "customers-email",
+                  "fieldName": "email",
+                  "isReadOnly": false,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "email",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              },
+              {
+                  "id": "customers-firstname",
+                  "fieldName": "firstname",
+                  "isReadOnly": false,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "firstname",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              },
+              {
+                  "id": "customers-id",
+                  "fieldName": "id",
+                  "isReadOnly": true,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "id",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              },
+              {
+                  "id": "customers-lastname",
+                  "fieldName": "lastname",
+                  "isReadOnly": false,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "lastname",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              },
+              {
+                  "id": "customers-orders",
+                  "fieldName": "orders",
+                  "isReadOnly": false,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "orders",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              },
+              {
+                  "id": "customers-updatedAt",
+                  "fieldName": "updatedAt",
+                  "isReadOnly": true,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "updated at",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              }
+          ],
+          "actions": [],
+          "columns": [
+              {
+                  "id": "customers-createdAt",
+                  "position": 0,
+                  "fieldName": "createdAt",
+                  "isVisible": true
+              },
+              {
+                  "id": "customers-email",
+                  "position": 1,
+                  "fieldName": "email",
+                  "isVisible": true
+              },
+              {
+                  "id": "customers-firstname",
+                  "position": 2,
+                  "fieldName": "firstname",
+                  "isVisible": true
+              },
+              {
+                  "id": "customers-id",
+                  "position": 3,
+                  "fieldName": "id",
+                  "isVisible": true
+              },
+              {
+                  "id": "customers-lastname",
+                  "position": 4,
+                  "fieldName": "lastname",
+                  "isVisible": true
+              },
+              {
+                  "id": "customers-updatedAt",
+                  "position": 6,
+                  "fieldName": "updatedAt",
+                  "isVisible": true
+              }
+          ],
+          "segments": [],
+          "viewEdit": {
+              "rows": [
+                  {
+                      "id": "customers-createdAt",
+                      "position": 0,
+                      "fieldName": "createdAt",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "customers-email",
+                      "position": 1,
+                      "fieldName": "email",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "customers-firstname",
+                      "position": 2,
+                      "fieldName": "firstname",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "customers-id",
+                      "position": 3,
+                      "fieldName": "id",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "customers-lastname",
+                      "position": 4,
+                      "fieldName": "lastname",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "customers-orders",
+                      "position": 5,
+                      "fieldName": "orders",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "customers-updatedAt",
+                      "position": 6,
+                      "fieldName": "updatedAt",
+                      "isVisible": true
+                  }
+              ],
+              "charts": [],
+              "summaryView": null
+          },
+          "viewLists": [
+              {
+                  "id": "customers-table",
+                  "name": "table",
+                  "isSmart": false,
+                  "position": 0,
+                  "recordsPerPage": 15
+              }
+          ],
+          "viewCreate": {
+              "rows": [
+                  {
+                      "id": "customers-createdAt",
+                      "position": 0,
+                      "fieldName": "createdAt",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "customers-email",
+                      "position": 1,
+                      "fieldName": "email",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "customers-firstname",
+                      "position": 2,
+                      "fieldName": "firstname",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "customers-id",
+                      "position": 3,
+                      "fieldName": "id",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "customers-lastname",
+                      "position": 4,
+                      "fieldName": "lastname",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "customers-orders",
+                      "position": 5,
+                      "fieldName": "orders",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "customers-updatedAt",
+                      "position": 6,
+                      "fieldName": "updatedAt",
+                      "isVisible": true
+                  }
+              ]
+          }
+      },
+      "modelName": "customers",
+      "addEnabled": true,
+      "displayName": "Customers",
+      "editEnabled": true,
+      "readEnabled": true,
+      "browseEnabled": true,
+      "deleteEnabled": true,
+      "exportEnabled": true,
+      "displayFieldName": null,
+      "displayNamePlural": null,
+      "defaultSortingOrder": "descending",
+      "searchOnEditEnabled": true,
+      "restrictedToSegments": false,
+      "defaultSortingFieldName": "id"
+  },
+  {
+      "id": "orderProducts",
+      "icon": null,
+      "layout": {
+          "scope": null,
+          "fields": [
+              {
+                  "id": "orderProducts-orderRef",
+                  "fieldName": "orderRef",
+                  "isReadOnly": false,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "order ref",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              },
+              {
+                  "id": "orderProducts-product",
+                  "fieldName": "product",
+                  "isReadOnly": false,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "product",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              }
+          ],
+          "actions": [],
+          "columns": [
+              {
+                  "id": "orderProducts-orderRef",
+                  "position": 0,
+                  "fieldName": "orderRef",
+                  "isVisible": true
+              },
+              {
+                  "id": "orderProducts-product",
+                  "position": 1,
+                  "fieldName": "product",
+                  "isVisible": true
+              }
+          ],
+          "segments": [],
+          "viewEdit": {
+              "rows": [
+                  {
+                      "id": "orderProducts-orderRef",
+                      "position": 0,
+                      "fieldName": "orderRef",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "orderProducts-product",
+                      "position": 1,
+                      "fieldName": "product",
+                      "isVisible": true
+                  }
+              ],
+              "charts": [],
+              "summaryView": null
+          },
+          "viewLists": [
+              {
+                  "id": "orderProducts-table",
+                  "name": "table",
+                  "isSmart": false,
+                  "position": 0,
+                  "recordsPerPage": 15
+              }
+          ],
+          "viewCreate": {
+              "rows": [
+                  {
+                      "id": "orderProducts-orderRef",
+                      "position": 0,
+                      "fieldName": "orderRef",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "orderProducts-product",
+                      "position": 1,
+                      "fieldName": "product",
+                      "isVisible": true
+                  }
+              ]
+          }
+      },
+      "modelName": "orderProducts",
+      "addEnabled": true,
+      "displayName": "Order Products",
+      "editEnabled": true,
+      "readEnabled": true,
+      "browseEnabled": false,
+      "deleteEnabled": true,
+      "exportEnabled": true,
+      "displayFieldName": null,
+      "displayNamePlural": null,
+      "defaultSortingOrder": null,
+      "searchOnEditEnabled": true,
+      "restrictedToSegments": false,
+      "defaultSortingFieldName": null
+  },
+  {
+      "id": "orders",
+      "icon": "shopping-basket",
+      "layout": {
+          "scope": null,
+          "fields": [
+              {
+                  "id": "orders-contactPhone",
+                  "fieldName": "contactPhone",
+                  "isReadOnly": false,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "contact phone",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              },
+              {
+                  "id": "orders-createdAt",
+                  "fieldName": "createdAt",
+                  "isReadOnly": true,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "created at",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              },
+              {
+                  "id": "orders-customer",
+                  "fieldName": "customer",
+                  "isReadOnly": false,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "customer",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              },
+              {
+                  "id": "orders-productsThroughOrderProducts",
+                  "fieldName": "productsThroughOrderProducts",
+                  "isReadOnly": false,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "products through order products",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              },
+              {
+                  "id": "orders-ref",
+                  "fieldName": "ref",
+                  "isReadOnly": false,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "ref",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              },
+              {
+                  "id": "orders-shippingStatus",
+                  "fieldName": "shippingStatus",
+                  "isReadOnly": false,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "shipping status",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              },
+              {
+                  "id": "orders-updatedAt",
+                  "fieldName": "updatedAt",
+                  "isReadOnly": true,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "updated at",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              }
+          ],
+          "actions": [],
+          "columns": [
+              {
+                  "id": "orders-contactPhone",
+                  "position": 0,
+                  "fieldName": "contactPhone",
+                  "isVisible": true
+              },
+              {
+                  "id": "orders-createdAt",
+                  "position": 1,
+                  "fieldName": "createdAt",
+                  "isVisible": true
+              },
+              {
+                  "id": "orders-customer",
+                  "position": 2,
+                  "fieldName": "customer",
+                  "isVisible": true
+              },
+              {
+                  "id": "orders-ref",
+                  "position": 4,
+                  "fieldName": "ref",
+                  "isVisible": true
+              },
+              {
+                  "id": "orders-shippingStatus",
+                  "position": 5,
+                  "fieldName": "shippingStatus",
+                  "isVisible": true
+              },
+              {
+                  "id": "orders-updatedAt",
+                  "position": 6,
+                  "fieldName": "updatedAt",
+                  "isVisible": true
+              }
+          ],
+          "segments": [],
+          "viewEdit": {
+              "rows": [
+                  {
+                      "id": "orders-contactPhone",
+                      "position": 0,
+                      "fieldName": "contactPhone",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "orders-createdAt",
+                      "position": 1,
+                      "fieldName": "createdAt",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "orders-customer",
+                      "position": 2,
+                      "fieldName": "customer",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "orders-productsThroughOrderProducts",
+                      "position": 3,
+                      "fieldName": "productsThroughOrderProducts",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "orders-ref",
+                      "position": 4,
+                      "fieldName": "ref",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "orders-shippingStatus",
+                      "position": 5,
+                      "fieldName": "shippingStatus",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "orders-updatedAt",
+                      "position": 6,
+                      "fieldName": "updatedAt",
+                      "isVisible": true
+                  }
+              ],
+              "charts": [],
+              "summaryView": null
+          },
+          "viewLists": [
+              {
+                  "id": "orders-table",
+                  "name": "table",
+                  "isSmart": false,
+                  "position": 0,
+                  "recordsPerPage": 15
+              }
+          ],
+          "viewCreate": {
+              "rows": [
+                  {
+                      "id": "orders-contactPhone",
+                      "position": 0,
+                      "fieldName": "contactPhone",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "orders-createdAt",
+                      "position": 1,
+                      "fieldName": "createdAt",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "orders-customer",
+                      "position": 2,
+                      "fieldName": "customer",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "orders-productsThroughOrderProducts",
+                      "position": 3,
+                      "fieldName": "productsThroughOrderProducts",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "orders-ref",
+                      "position": 4,
+                      "fieldName": "ref",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "orders-shippingStatus",
+                      "position": 5,
+                      "fieldName": "shippingStatus",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "orders-updatedAt",
+                      "position": 6,
+                      "fieldName": "updatedAt",
+                      "isVisible": true
+                  }
+              ]
+          }
+      },
+      "modelName": "orders",
+      "addEnabled": true,
+      "displayName": "Orders",
+      "editEnabled": true,
+      "readEnabled": true,
+      "browseEnabled": true,
+      "deleteEnabled": true,
+      "exportEnabled": true,
+      "displayFieldName": null,
+      "displayNamePlural": null,
+      "defaultSortingOrder": null,
+      "searchOnEditEnabled": true,
+      "restrictedToSegments": false,
+      "defaultSortingFieldName": null
+  },
+  {
+      "id": "products",
+      "icon": "archive",
+      "layout": {
+          "scope": null,
+          "fields": [
+              {
+                  "id": "products-createdAt",
+                  "fieldName": "createdAt",
+                  "isReadOnly": true,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "created at",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              },
+              {
+                  "id": "products-id",
+                  "fieldName": "id",
+                  "isReadOnly": true,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "id",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              },
+              {
+                  "id": "products-label",
+                  "fieldName": "label",
+                  "isReadOnly": false,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "label",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              },
+              {
+                  "id": "products-ordersThroughOrderProducts",
+                  "fieldName": "ordersThroughOrderProducts",
+                  "isReadOnly": false,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "orders through order products",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              },
+              {
+                  "id": "products-picture",
+                  "fieldName": "picture",
+                  "isReadOnly": false,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "picture",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              },
+              {
+                  "id": "products-price",
+                  "fieldName": "price",
+                  "isReadOnly": false,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "price",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              },
+              {
+                  "id": "products-updatedAt",
+                  "fieldName": "updatedAt",
+                  "isReadOnly": true,
+                  "widgetEdit": null,
+                  "description": null,
+                  "displayName": "updated at",
+                  "widgetDisplay": null,
+                  "isFilterDisplayed": true,
+                  "foreignAndPrimaryKey": false
+              }
+          ],
+          "actions": [],
+          "columns": [
+              {
+                  "id": "products-createdAt",
+                  "position": 0,
+                  "fieldName": "createdAt",
+                  "isVisible": true
+              },
+              {
+                  "id": "products-id",
+                  "position": 1,
+                  "fieldName": "id",
+                  "isVisible": true
+              },
+              {
+                  "id": "products-label",
+                  "position": 2,
+                  "fieldName": "label",
+                  "isVisible": true
+              },
+              {
+                  "id": "products-picture",
+                  "position": 4,
+                  "fieldName": "picture",
+                  "isVisible": true
+              },
+              {
+                  "id": "products-price",
+                  "position": 5,
+                  "fieldName": "price",
+                  "isVisible": true
+              },
+              {
+                  "id": "products-updatedAt",
+                  "position": 6,
+                  "fieldName": "updatedAt",
+                  "isVisible": true
+              }
+          ],
+          "segments": [],
+          "viewEdit": {
+              "rows": [
+                  {
+                      "id": "products-createdAt",
+                      "position": 0,
+                      "fieldName": "createdAt",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "products-id",
+                      "position": 1,
+                      "fieldName": "id",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "products-label",
+                      "position": 2,
+                      "fieldName": "label",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "products-ordersThroughOrderProducts",
+                      "position": 3,
+                      "fieldName": "ordersThroughOrderProducts",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "products-picture",
+                      "position": 4,
+                      "fieldName": "picture",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "products-price",
+                      "position": 5,
+                      "fieldName": "price",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "products-updatedAt",
+                      "position": 6,
+                      "fieldName": "updatedAt",
+                      "isVisible": true
+                  }
+              ],
+              "charts": [],
+              "summaryView": null
+          },
+          "viewLists": [
+              {
+                  "id": "products-table",
+                  "name": "table",
+                  "isSmart": false,
+                  "position": 0,
+                  "recordsPerPage": 15
+              }
+          ],
+          "viewCreate": {
+              "rows": [
+                  {
+                      "id": "products-createdAt",
+                      "position": 0,
+                      "fieldName": "createdAt",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "products-id",
+                      "position": 1,
+                      "fieldName": "id",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "products-label",
+                      "position": 2,
+                      "fieldName": "label",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "products-ordersThroughOrderProducts",
+                      "position": 3,
+                      "fieldName": "ordersThroughOrderProducts",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "products-picture",
+                      "position": 4,
+                      "fieldName": "picture",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "products-price",
+                      "position": 5,
+                      "fieldName": "price",
+                      "isVisible": true
+                  },
+                  {
+                      "id": "products-updatedAt",
+                      "position": 6,
+                      "fieldName": "updatedAt",
+                      "isVisible": true
+                  }
+              ]
+          }
+      },
+      "modelName": "products",
+      "addEnabled": true,
+      "displayName": "Products",
+      "editEnabled": true,
+      "readEnabled": true,
+      "browseEnabled": true,
+      "deleteEnabled": true,
+      "exportEnabled": true,
+      "displayFieldName": null,
+      "displayNamePlural": null,
+      "defaultSortingOrder": "descending",
+      "searchOnEditEnabled": true,
+      "restrictedToSegments": false,
+      "defaultSortingFieldName": "id"
+  }
+]
